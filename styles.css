@@ -1,0 +1,106 @@
+/* General Body Styling */
+body {
+    background: linear-gradient(to right, #141e30, #243b55);
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Centered Container */
+.container {
+    max-width: 350px;
+    margin-top: 50px;
+    margin-right: 50%;
+}
+
+/* Calculator Design */
+.calculator {
+    background: rgba(162, 125, 125, 0.1);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 4px 20px rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    width: 200%;
+    height: 464px;
+}
+
+.text-center {
+    text-align: center !important;
+    margin-left: 75%;
+}
+
+/* Display Input Box */
+#display {
+    height: 60px;
+    font-size: 1.8rem;
+    border-radius: 12px;
+    text-align: right;
+    color: black;
+    background: white;
+    border: none;
+    outline: none;
+    padding-right: 15px;
+    box-shadow: inset 0px 0px 10px rgba(255, 255, 255, 0.2);
+}
+
+/* Button Grid */
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    margin-top: 15px;
+}
+
+/* Button General Styles */
+.btn {
+    height: 60px;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 15px;
+    transition: all 0.3s ease-in-out;
+    font-weight: bold;
+}
+
+/* Number Buttons */
+.btn-number {
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+.btn-number:hover {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+/* Operator Buttons */
+.btn-operator {
+    background: #ff9800;
+    color: white;
+}
+.btn-operator:hover {
+    background: #ffb74d;
+}
+
+/* AC & DEL Buttons */
+.btn-accent {
+    background: #e53935;
+    color: white;
+}
+.btn-accent:hover {
+    background: #ef5350;
+}
+
+/* Square Button */
+.btn-square {
+    background: #673ab7;
+    color: white;
+}
+.btn-square:hover {
+    background: #9575cd;
+}
+
+/* Equal Button */
+.btn-equal {
+    background: #4caf50;
+    color: white;
+}
+.btn-equal:hover {
+    background: #66bb6a;
+}
